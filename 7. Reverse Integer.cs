@@ -26,7 +26,7 @@ public class Solution
             prev = result;
             x = x / 10;
         }
-        if (isPositive == true)
+        if (isPositive)
             return result;
         return result * -1;
     }
